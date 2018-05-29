@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50Ljk2ZGJlYTA2ODE1ODRhMWQ4NWY2YTk1NDQzODBjYzkxIiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi4zNDNmYmY2NDgwODY0NWQwYTA4MGU5NTgyYWJiNjA0NSIsImJ1bmRsZVNlZWRJZCI6ImNvbS5hbXBhay53aWNlZC5pb3QiLCJidW5kbGVJZCI6ImNvbS5hbXBhay53aWNlZC5pb3QiLCJpc3MiOiJBbWF6b24iLCJ0eXBlIjoiQVBJS2V5IiwiYXBwVmFyaWFudElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LmExN2JmNDBiNGE2OTQ0NTc4OTY1M2M1ZmYwOWU1ZTIyIiwidHJ1c3RQb29sIjpudWxsLCJhcHBJZCI6ImFtem4xLmFwcGxpY2F0aW9uLWNsaWVudC5hMTdiZjQwYjRhNjk0NDU3ODk2NTNjNWZmMDllNWUyMiIsImlkIjoiNDYxYmQ0ZTYtNTE3Mi0xMWU3LWE0MTEtODk2YjE5YjYwMjAwIiwiaWF0IjoiMTQ5NzQ5MzY5MDI1OSJ9.FpkDW673stQHPSSdVrI0T41fMVHKcVnDX2bIG/h81PsVS49ag7lN8EgX0IuC2rfQ76/yCSbet5LIo4W+zDlULU4JotJdFr7m5xKpY47touVle8ZwEOuffTiI4vZdMEWGkO0xZRDbVR6Eq5u0ijkMwKCo3RXEsaCDQ/1YmkoIDew5QNvEqijQ9Osw261UPKxL5mi2UjrgRuz1BY+FDiTP7LTuhkwwxx3CoFVXWIdpGDFl/Aj1jdDROK3AQtj3C0wlrqdkG/pimxtycSILokYRmFrs2Sb1FV7tz5KiQb6e+g5BCJ2wmQ3o73XuCQg+F3+qlDkJ6fE7xte50VAk/UjIeQ==</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>WICED IOT</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Audio input for Alexa</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+PODS:
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - CocoaMQTT (1.0.19):
+    - CocoaAsyncSocket (~> 7.5.1)
+    - SwiftyTimer (~> 2.0.0)
+  - ExpandingMenu (0.3.1)
+  - FoldingCell (3.0.0)
+  - SwiftyJSON (3.1.4)
+  - SwiftyTimer (2.0.0)
+  - Toast-Swift (2.0.0)
+
+DEPENDENCIES:
+  - CocoaMQTT
+  - ExpandingMenu (~> 0.3)
+  - FoldingCell
+  - SwiftyJSON
+  - Toast-Swift (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  CocoaMQTT: 014fd1f0793d376b207073ebb5b92a0c8bf8eb2e
+  ExpandingMenu: 107548f3cb8c04b28a8b6b436983f506849484cc
+  FoldingCell: 55e9fcac546acc2c8f110f210af892aa90032160
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  SwiftyTimer: 2efd74b060d69ad4f1496baf5bbedbe132125fcf
+  Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
+
+PODFILE CHECKSUM: bd69c2385ae6464e16bbc6b842aeecea42176bd1
+
+COCOAPODS: 1.2.0
